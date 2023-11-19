@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6 Guerra Erick</title>
+    <link rel="stylesheet" href="styles6.css">
+</head>
+<body>
+    <div class="container">
+        <form action="registro.php" method="POST">
+            <h2>Registro</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" name="email" required>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" name="contrasena" required>
+            <button type="submit">Registrar</button>
+        </form>
+
+        <form action="login.php" method="POST">
+            <h2>Iniciar Sesión</h2>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" name="email" required>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" name="contrasena" required>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+    </div>
+</body>
+</html>

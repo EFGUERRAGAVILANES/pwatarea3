@@ -1,0 +1,11 @@
+function validarFormulario() {
+    var nombre = document.getElementById('nombre').value;
+    var email = document.getElementById('email').value;
+    var mensaje = document.getElementById('mensaje').value;
+
+    if (nombre === '' || email === '' || mensaje === '') {
+        alert('Por favor, complete todos los campos.');
+    } else {
+        document.getElementById('contactForm').submit();
+    }
+}
